@@ -21,7 +21,8 @@
   .space {
     margin-bottom: 17em;
   }
-  h2 {
+
+h2 {
     text-align: center;
     color: white;
     max-width: 70ch;

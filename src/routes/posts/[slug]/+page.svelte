@@ -28,17 +28,13 @@
 
 <h2 class="catigoria">Κατηγορίες:</h2>
 
-<ul>
-  <li>
+<div class="card__container">
     {#each categories as category}
-      <a href="/category/{category}">
 	<div class="card">
-	  <p>{category}</p>
+	  <a href="/category/{category}">{category}</a>
 	</div>
-      </a>
     {/each}
-  </li>
-</ul>
+</div>
 
 
 <style>
@@ -47,8 +43,7 @@
     color: white;
     width: 100%;
     text-align: center;
-    margin: 2em 0;
-    
+    margin-top: 2em;
   }
 
   .content {
@@ -81,21 +76,21 @@
 
   a {
     text-decoration: none;
+    color: white;
   }
   
-  ul {
-    max-width: 70ch;
-    list-style-type: none;
+  .card__container {
     margin: 0 auto;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
   }
 
   .card {
-    background-color: var(--brown-grey);
-    max-width: 70ch;
-    padding: 0.2em 0.5em;
-    border-radius: 0.4em;
-    display: inline-block;
-    margin-right: 1em;
+    background-color: var(--silver);
+    padding: 0.6em 0.8em;
+    border-radius: 0.3em;
   }
 
   .card p {

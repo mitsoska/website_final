@@ -27,14 +27,14 @@ int main() {'{'}
   .codespan {
     max-width: 70ch;
     margin: 3em auto;
-    background: rgb(30, 30, 50);
+    background: rgb(0, 0, 0);
     border-radius: 0.2em;
-    border: rgb(80, 80, 100) solid 1px;
+    border: solid 2px  rgb(20, 20, 20) ;
     padding: 0.1em 1em;
   }
 
   .code_word {
-    color: var(--brown);
+    color: rgb(20, 80, 40);
     font-weight: 500;
   }
 
@@ -44,13 +44,13 @@ int main() {'{'}
   }
 
   .string {
-    color: var(--green);
-    font-weight: 500;
+    color: var(--silver);
+    font-weight: 200;
   }
   
   h1 {
-    font-weight: 500;
-    color: lightblue;
+    font-weight: 300;
+    color: rgb(100, 100, 100);
   }
 
   .text {
@@ -59,12 +59,12 @@ int main() {'{'}
 
   .codespan pre {
     font-size: 1.5em;
-    color: var(--purple);
+    color: rgb(200, 70, 30);
     font-weight: 500;
   }
   .text p {
     text-align: justify;
-    font-weight: 700;
+    font-weight: 400;
   }
   .container {
     width: 100%;

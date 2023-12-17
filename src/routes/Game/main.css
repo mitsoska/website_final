@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  user-select: none;
+}
+
+body {
+  background: rgba(60, 90, 100, 1);
+}
+
+.proton, .electron {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.proton {
+  background: rgba(0, 100, 200);
+  border: 3px solid black;
+  cursor: pointer;
+  top: 180px;
+  left: 178px;
+}
+
+#atom {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+
+.electron {
+  width: 25px;
+  height: 25px;
+  background: rgba(200, 100, 0);
+  border: 3px solid black;
+  top: 180px;
+  left: 178px;
+}
+
+.orbital {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 3px dashed rgba(255, 255, 255, 0.2);
+
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+#upgrades {
+  margin-left: 1em;
+  border: 1px solid black;
+  padding: 0.5em 0.7em 0.7em 0.7em;
+  background: rgba(0, 0, 0, 0.2);
+  width: 300px;
+
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+#upgrades_header {
+  color: white;
+  margin-bottom: 0.7em;
+}
+
+#upgrade_buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+#upgrade_buttons button {
+  cursor: pointer;
+  display: block;
+
+  width: 100%;
+  padding: 0.3em 0.5em;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
+  color: #eeee;
+}
+
+#upgrade_buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#counter {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 2rem;
+  color: white;
+}

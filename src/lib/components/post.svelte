@@ -28,18 +28,18 @@
   }
   
   ul {
-    color: white;
+    color: var(--silver1);
     list-style: none;
 
   }
 
   li {
-    color: white;
+    color: var(--silver);
     text-decoration: none;
-    background: var(--brown-grey);
+    background: rgb(40, 40, 40);
     border-radius: 0.2em;
-    border: 2px solid var(--purple);
-    padding: 1em;
+    border: 1px solid var(--silver);
+    padding: 0.1em 1em;
     max-width: 70ch;
     margin: 1em auto;
   }

@@ -11,14 +11,16 @@
 <style>
 
   .highlight {
-        color: rgb(155, 60, 34);
+        color: var(--green);
   }
   a {
-    color: lightblue;
+    color: rgb(40, 70, 200);
     font-weight: 500;
+    text-decoration: none;
   }
-  p {
-    color: white;
+
+p {
+    color: var(--silver);
     margin: 0;
   }
   

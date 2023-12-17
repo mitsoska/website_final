@@ -52,7 +52,7 @@
     margin-bottom: 15em;
   }
   .card {
-    background-color: var(--brown-grey);
+    background-color: var(--silver);
     max-width: 70ch;
     padding: 0.5em;
     border-radius: 0.4em;

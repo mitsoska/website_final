@@ -27,16 +27,19 @@
 
   footer a {
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 300;
     color: grey;
   }
-  :global(:root)
+
+:global(:root)
   {
     --brown:  rgb(155, 60, 34);
-    --purple: rgb(140, 140, 200);
+    --purple: rgb(100, 140, 200);
     --green:  rgb(40, 140, 50);
     --brown-grey:  rgb(120, 100, 80);
-  }
+    --black: rgb(10, 10, 10);
+    --silver: rgb(100, 100, 100);
+}
   
   img {
     width: 4em;
@@ -48,7 +51,7 @@
 
   :global(body) {
     margin: 0;
-    background: rgb(10, 10, 30);
+    background: var(--black);
 
   }
   * {
@@ -76,7 +79,7 @@
   nav {
     padding: 0.8em 1em;
     margin: 0 10em;
-    background: rgb(10, 10, 30);
+    background: var(--black);
     border-bottom: 1px solid rgb(40, 40, 40);
     display: flex;
     align-items: center;
