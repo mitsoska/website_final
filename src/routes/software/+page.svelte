@@ -18,6 +18,8 @@
   </div>
 </main>
 
+<title> Λογισμικό </title>
+
 <style>
 
   a {

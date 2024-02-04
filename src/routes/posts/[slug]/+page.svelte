@@ -36,6 +36,7 @@
     {/each}
 </div>
 
+<title>{title}</title>
 
 <style>
 
