@@ -1,7 +1,7 @@
 <script>
   export let data;
 
-  const {
+ const {
     title,
     description,
     date,
@@ -40,14 +40,14 @@
 <style>
 
   .catigoria {
-    color: white;
+    color: black;
     width: 100%;
     text-align: center;
     margin-top: 2em;
   }
 
   .content {
-    color: white;
+    color: black;
     width: 100%;
     max-width: 70ch;
     margin: 0 auto;
@@ -67,16 +67,16 @@
   }
   main {
     width: 100%;
-    color: white;
+    color: black;
   }
 
   div {
-    color: white;
+    color: black;
   }
 
   a {
     text-decoration: none;
-    color: white;
+    color: black;
   }
   
   .card__container {
@@ -88,11 +88,12 @@
   }
 
   .card {
-    background-color: var(--silver);
+    background-color: rgb(210, 210, 210);
     padding: 0.6em 0.8em;
-    border-radius: 0.3em;
+    border: 2px groove black;
+    border-radius: 0.4em;
   }
-
+  
   .card p {
     font-size: 1em;
   }

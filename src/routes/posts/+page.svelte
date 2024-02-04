@@ -24,7 +24,7 @@
 
 h2 {
     text-align: center;
-    color: white;
+    color: black;
     max-width: 70ch;
     margin: 1.5em auto;
   }

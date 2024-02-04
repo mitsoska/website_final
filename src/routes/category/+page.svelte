@@ -52,10 +52,11 @@
     margin-bottom: 15em;
   }
   .card {
-    background-color: var(--silver);
-    max-width: 70ch;
-    padding: 0.5em;
+    background-color: rgb(210, 210, 210);
+    padding: 0.6em 0.8em;
+    border: 2px groove black;
     border-radius: 0.4em;
+    max-width: 60ch;
     display: inline-block;
     margin: 2em ;
   }

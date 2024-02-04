@@ -16,11 +16,10 @@
   
   .space {
     margin-bottom: 13em;
-
   }
   
   h1 {
-    color: white;
+    color: black;
     width: 100%;
     text-align: center;
     margin: 2em 0;

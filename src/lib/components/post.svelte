@@ -26,26 +26,32 @@
   .body #date {
     text-align: right;
   }
-  
+
   ul {
     color: var(--silver1);
     list-style: none;
-
+    padding: 0;
   }
 
   li {
     color: var(--silver);
     text-decoration: none;
-    background: rgb(40, 40, 40);
     border-radius: 0.2em;
-    border: 1px solid var(--silver);
+    border: 3px solid var(--brown);
     padding: 0.1em 1em;
-    max-width: 70ch;
-    margin: 1em auto;
+    margin: 1em 3em;
+  }
+
+
+  @media (max-width: 600px) {
+     li {
+       margin: 0;
+       width: 100%;
+     }
   }
 
   a {
-      color: white;
+      color: black;
       text-decoration: none;
   }
 
