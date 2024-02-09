@@ -76,7 +76,7 @@
 
   :global(body) {
     margin: 0;
-    background-image: linear-gradient(to top, rgba(80, 80, 80, 1), rgba(255, 255, 255, 0.2)), url("static/profile.png");
+    background-image: linear-gradient(to top, rgba(80, 80, 80, 1), rgba(255, 255, 255, 0.2)), url("/profile.png");
   }
 
   :global(tr, th, td)
