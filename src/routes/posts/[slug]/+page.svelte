@@ -99,4 +99,8 @@
     font-size: 1em;
   }
 
+  img {
+      width: 100%;
+  }
+  
 </style>
