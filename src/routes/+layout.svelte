@@ -17,13 +17,13 @@
 <style>
 
   .email {
-     color: grey;
+     color: white;
      font-size: 0.8em;
   }
   
   main {
     margin: 0 22vw;
-    background-color: white;
+    background-color: rgb(120, 120, 120);
     border-left: 2px solid grey;
     border-right: 2px solid grey;
   }
@@ -41,13 +41,13 @@
     bottom: 0;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(80, 80, 80);
   }
 
   footer a {
     font-size: 0.8em;
     font-weight: 300;
-    color: grey;
+    color: white;
   }
 
 :global(:root)
@@ -71,12 +71,11 @@
     margin: 0 auto;
     text-align: center;
     padding: 1em;
-    border: 3px dashed black;
    }
 
   :global(body) {
     margin: 0;
-    background-image: linear-gradient(to top, rgba(80, 80, 80, 1), rgba(255, 255, 255, 0.2)), url("/profile.png");
+    background-color: rgb(180, 180, 180);
   }
 
   :global(tr, th, td)
@@ -97,11 +96,11 @@
   :global(p, h1, h2, h3, h4, pre) {
     font-family: "Helvetica", sans-serif;
     font-weight: 500;
-    color: black;
+    color: white;
   }
   
   a {
-    color: black;
+    color: white;
     font-weight: 800;
     font-size: 0.7em;
     text-decoration: none;
@@ -117,7 +116,7 @@
   
   nav {
     padding: 1.2em 1em;
-    background-image: linear-gradient(to top, rgb(220, 220, 220), white);
+    background-color: rgb(80, 80, 80);
     display: flex;
     justify-content: center;
   }

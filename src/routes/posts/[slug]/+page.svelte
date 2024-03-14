@@ -40,6 +40,10 @@
 
 <style>
 
+  .card a
+  {
+   color: black;
+}
   .catigoria {
     color: black;
     width: 100%;
@@ -48,7 +52,7 @@
   }
 
   .content {
-    color: black;
+    color: white;
     width: 100%;
     max-width: 70ch;
     margin: 0 auto;
@@ -77,7 +81,7 @@
 
   a {
     text-decoration: none;
-    color: black;
+    color: white;
   }
   
   .card__container {

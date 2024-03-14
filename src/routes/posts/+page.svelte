@@ -28,7 +28,4 @@ h2 {
     max-width: 70ch;
     margin: 1.5em auto;
   }
-
-  
-  
 </style>

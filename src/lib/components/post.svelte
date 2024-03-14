@@ -28,18 +28,19 @@
   }
 
   ul {
-    color: var(--silver1);
+    color: black;
     list-style: none;
     padding: 0;
   }
 
-  li {
-    color: var(--silver);
+  .post li {
+    color: black;
     text-decoration: none;
     border-radius: 0.2em;
-    border: 3px solid var(--brown);
+    border: 3px solid black;
     padding: 0.1em 1em;
     margin: 1em 3em;
+    background-color: rgb(200, 200, 200);
   }
 
 
@@ -55,5 +56,12 @@
       text-decoration: none;
   }
 
-  
+  .card h3 {
+      color: black;
+  } 
+
+  div p {
+      color: black;
+  }
+
 </style>

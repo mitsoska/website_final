@@ -13,16 +13,16 @@
 <style>
 
   .highlight {
-        color: var(--green);
+        color: rgb(90, 230, 90);
   }
   a {
-    color: rgb(40, 70, 200);
+    color: rgb(190, 190, 250);
     font-weight: 500;
     text-decoration: none;
   }
 
 p {
-    color: var(--silver);
+    color: white;
     margin: 0;
   }
   
@@ -36,12 +36,12 @@ p {
   
   .profile {
     height: 12em;
-    border: 0.2em solid grey;
+    border: 0.2em solid white;
     border-radius: 0.3em;
   }
   
   h2 {
-    color: rgb(100, 100, 100);
+    color: white;
     text-align: center;
     margin-top: 2em;
   }
