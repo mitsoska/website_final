@@ -54,7 +54,7 @@ int main() {'{'}
   
   h1 {
     font-weight: 800;
-    color: rgb(100, 100, 100);
+    color: white;
   }
 
   .text {

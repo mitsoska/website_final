@@ -3,14 +3,14 @@
 
 <nav>
   <div>
-    <a href = "/posts">Άρθρα</a><a href = "/about">Ποιός είμαι;</a><a href="/software">Χρήσιμο λογισμικό</a><a href="/Chemistry">Χημεία</a>
+    <a href = "/posts">Άρθρα</a><a href = "/about">Ποιός είμαι;</a><a href="/software">Χρήσιμο λογισμικό</a><a href="/chemistry">Χημεία</a>
   </div>
 </nav>
 
 <slot />
 
 <footer>
-  <p class="email">Δημήτρης Κατηφόρης: <span>pioyi@mail.com</span></p>
+  <p class="email">Δημήτρης Κατηφόρης: <span>dimkatif@chemist.com</span></p>
   <a href="https://codeberg.org/Dimitris.Katiforis" target="_blank">Ο λογαριασμός μου στο codeberg</a>
 </footer>
 </main>

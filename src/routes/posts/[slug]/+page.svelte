@@ -43,7 +43,8 @@
   .card a
   {
    color: black;
-}
+  }
+  
   .catigoria {
     color: black;
     width: 100%;
