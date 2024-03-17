@@ -37,10 +37,9 @@
     color: black;
     text-decoration: none;
     border-radius: 0.2em;
-    border: 3px solid black;
     padding: 0.1em 1em;
     margin: 1em 3em;
-    background-color: rgb(200, 200, 200);
+    background-image: linear-gradient(to bottom, rgb(150, 150, 150), rgb(130, 130, 130));       
   }
 
 

@@ -27,6 +27,6 @@
         list-style: none;
 }
         li {
-        color: white;   
+        color: black;   
         }
 </style>

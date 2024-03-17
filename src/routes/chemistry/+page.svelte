@@ -2,7 +2,7 @@
 
 <style>
         a {
-          color: white;
+          color: black;
           margin: 2em;
           display: inline-block;
         }

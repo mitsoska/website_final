@@ -17,16 +17,17 @@
 <style>
 
   .email {
-     color: white;
+     color: black;
      font-size: 0.8em;
   }
   
   main {
     margin: 0 22vw;
-    background-color: rgb(120, 120, 120);
-    border-left: 2px solid grey;
-    border-right: 2px solid grey;
-  }
+    margin-top: 2em;
+    background-image: url("paper.jpg");
+    background-size: 30em;        
+    box-shadow: inset 0 0 1em rgb(150, 150, 150);
+  } 
 
   @media (max-width: 600px) {
      main {
@@ -37,17 +38,18 @@
   footer {
     margin-top: 5em;
     width: 100%;
-    padding: 2em;
+    padding: 0em 2em;
     bottom: 0;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(80, 80, 80);
+    align-items: center;
+    position: relative;
+    bottom: 12px;
   }
 
   footer a {
-    font-size: 0.8em;
     font-weight: 300;
-    color: white;
+    color: black;
   }
 
 :global(:root)
@@ -70,19 +72,21 @@
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    top: 12px;
     padding: 1em;
    }
 
   :global(body) {
     margin: 0;
-    background-color: rgb(180, 180, 180);
+    background-image: url("wood.jpg");
   }
 
   :global(tr, th, td)
   {
       background-color: grey;
       border: 1px solid black;
-      color: white;
+      color: black;
       padding: 0.2em;
   }
   
@@ -96,11 +100,12 @@
   :global(p, h1, h2, h3, h4, pre) {
     font-family: "Helvetica", sans-serif;
     font-weight: 500;
-    color: white;
+    line-height: 1.85em;
+    color: black;
   }
   
   a {
-    color: white;
+    color: black;
     font-weight: 800;
     font-size: 0.7em;
     text-decoration: none;
@@ -116,7 +121,6 @@
   
   nav {
     padding: 1.2em 1em;
-    background-color: rgb(80, 80, 80);
     display: flex;
     justify-content: center;
   }

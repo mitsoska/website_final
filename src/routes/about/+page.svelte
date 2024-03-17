@@ -22,7 +22,7 @@
   }
 
 p {
-    color: white;
+    color: black;
     margin: 0;
   }
   
@@ -36,12 +36,12 @@ p {
   
   .profile {
     height: 12em;
-    border: 0.2em solid white;
+    border: 0.2em solid black;
     border-radius: 0.3em;
   }
   
   h2 {
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 2em;
   }
