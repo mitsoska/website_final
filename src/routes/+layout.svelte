@@ -24,7 +24,7 @@
   main {
     margin: 0 22vw;
     margin-top: 2em;
-    background-image: url("paper.jpg");
+    background-image: url(/paper.jpg);
     background-size: 30em;        
     box-shadow: inset 0 0 1em rgb(150, 150, 150);
   } 
@@ -79,7 +79,7 @@
 
   :global(body) {
     margin: 0;
-    background-image: url("wood.jpg");
+    background-image: url(/wood.jpg);
   }
 
   :global(tr, th, td)
