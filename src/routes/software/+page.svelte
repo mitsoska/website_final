@@ -22,18 +22,29 @@
 
 <style>
 
+  h1 {
+    margin-bottom: 29.8px;
+  }
+
+  p {
+    margin: 0;
+  }
+  
   a {
     text-decoration: none;
     color: var(--purple);
   }
+
   main {
     width: 100%;
   }
   
   .content {
+    position: relative;
+    top: 0px;
     color: white;
     max-width: 70ch;
-    margin: 3em auto;
+    margin: 0em auto;
   }
   
 </style>

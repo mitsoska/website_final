@@ -13,15 +13,16 @@
 <style>
 
   .highlight {
-        color: rgb(90, 230, 90);
+    color: rgb(0, 100, 0);
   }
+
   a {
-    color: rgb(190, 190, 250);
+    color: rgb(50, 50, 250);
     font-weight: 500;
     text-decoration: none;
   }
 
-p {
+  p {
     color: black;
     margin: 0;
   }
@@ -35,8 +36,7 @@ p {
   }
   
   .profile {
-    height: 12em;
-    border: 0.2em solid black;
+    border: 2px solid black;
     border-radius: 0.3em;
   }
   

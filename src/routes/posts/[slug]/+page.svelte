@@ -29,11 +29,11 @@
 <h2 class="catigoria">Κατηγορίες:</h2>
 
 <div class="card__container">
-    {#each categories as category}
-	<div class="card">
-	  <a href="/category/{category}">{category}</a>
-	</div>
-    {/each}
+  {#each categories as category}
+    <div class="card">
+      <a href="/category/{category}">{category}</a>
+    </div>
+  {/each}
 </div>
 
 <title>{title}</title>
@@ -42,24 +42,28 @@
 
   .card a
   {
-   color: black;
+    color: black;
   }
   
   .catigoria {
     color: black;
     width: 100%;
     text-align: center;
-    margin-top: 2em;
   }
 
+  p {
+    margin-bottom: 54px;
+  }
+  
   .content {
     color: white;
     width: 100%;
     max-width: 70ch;
-    margin: 0 auto;
+    margin: 0px auto;
   }
+
   .start {
-    padding: 3em 0em;
+    padding: 0px 0em;
   }
 
   .start h1 {
@@ -70,7 +74,9 @@
   .start p {
     text-align: center;
     font-size: 15px;
+    padding-top: 12px;
   }
+
   main {
     width: 100%;
     color: black;
@@ -105,8 +111,8 @@
   }
 
   img {
-      width: 100%;
-      border: 1px solid black;
+    width: 100%;
+    border: 1px solid black;
   }
   
 </style>

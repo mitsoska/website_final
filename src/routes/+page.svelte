@@ -16,7 +16,7 @@
   .text {
     position: relative;
     color: rgb(200, 200, 200);
-    top: 0px;
+    top: 22px;
   }
 
   .text p {

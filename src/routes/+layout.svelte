@@ -97,10 +97,10 @@
     
   }
 
-  :global(p, h1, h2, h3, h4, pre) {
+  :global(p, h1, h2, h3, h4, pre, li) {
     font-family: "Helvetica", sans-serif;
     font-weight: 500;
-    line-height: 1.85em;
+    line-height: 29.6px;
     color: black;
   }
   

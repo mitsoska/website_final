@@ -37,9 +37,10 @@
     color: black;
     text-decoration: none;
     border-radius: 0.2em;
+    border: 1px solid black;
     padding: 0.1em 1em;
     margin: 1em 3em;
-    background-image: linear-gradient(to bottom, rgb(150, 150, 150), rgb(130, 130, 130));       
+    background-image: linear-gradient(to bottom, rgba(150, 150, 150, 0.15), rgba(130, 130, 130, 0.15));       
   }
 
 
